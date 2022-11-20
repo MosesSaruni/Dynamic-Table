@@ -39,14 +39,14 @@ public class MainActivity extends AppCompatActivity {
         tv2.setTextColor(Color.WHITE);
         tbrow0.addView(tv2);
 
-        TextView tv3 = new TextView(this);
-        tv3.setText(" Stock Remaining ");
-        tv3.setTextColor(Color.WHITE);
-        tbrow0.addView(tv3);
+//        TextView tv3 = new TextView(this);
+//        tv3.setText(" Stock Remaining ");
+//        tv3.setTextColor(Color.WHITE);
+//        tbrow0.addView(tv3);
 
         stk.addView(tbrow0);
 
-        for (int i = 0; i < 25; i++) {
+        for (int i = 0; i <40 ; i++) {
             TableRow tbrow = new TableRow(this);
 
             TextView t1v = new TextView(this);
@@ -66,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
             t3v.setTextColor(Color.WHITE);
             t3v.setGravity(Gravity.CENTER);
             tbrow.addView(t3v);
-            
-            TextView t4v = new TextView(this);
-            t4v.setText("" + i * 15 / 32 * 10);
-            t4v.setTextColor(Color.WHITE);
-            t4v.setGravity(Gravity.CENTER);
-            tbrow.addView(t4v);
+
+//            TextView t4v = new TextView(this);
+//            t4v.setText("" + i * 15 / 32 * 10);
+//            t4v.setTextColor(Color.WHITE);
+//            t4v.setGravity(Gravity.CENTER);
+//            tbrow.addView(t4v);
             stk.addView(tbrow);
         }
 
